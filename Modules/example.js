@@ -57,13 +57,13 @@ import {
   SayGoodBy as goodBy
 } from './welcome';
 
-//When we assing an alias we must use the alias
+//When we assign an alias we must use the alias
 console.log('result: ', hello('Gonzalo'));
 console.log('result: ', goodBy('Gonzalo'));
 
 // #4.3
-//We can import it in one time
-import * as welcome from './welcome'; // * -> means everithing.
+//We can import all at once
+import * as welcome from './welcome'; // * -> means everything.
 
 console.log('result: ', welcome.SayHello('Gonzalo'));
 console.log('result: ', welcome.SayGoodBy('Gonzalo'));
