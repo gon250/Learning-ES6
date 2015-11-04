@@ -1,0 +1,14 @@
+{
+  "name": "babel-test",
+  "version": "1.0.0",
+  "description": "Teasting babel || NOTE: -w => watch || -s => source map",
+  "main": "main.js",
+  "scripts": {
+    "build" : "babel ./src -d ./dist -w -s"
+  },
+  "author": "Gonzalo",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.8.20"
+  }
+}

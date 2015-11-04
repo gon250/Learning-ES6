@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/main.js"],"names":[],"mappings":";;AAAA,IAAI,IAAI,GAAG,EAAE,CAAC;;AAEd,KAAK,wBAAsB,IAAI,CAAG,CAAC","file":"main.js","sourcesContent":["let test = 42;\r\n\r\nalert(`The test value is ${test}`);\r\n"]}
